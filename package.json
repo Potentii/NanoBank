@@ -1,0 +1,16 @@
+{
+  "name": "nano-bank",
+  "version": "1.0.0",
+  "description": "A minimalist bank system",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Guilherme Reginaldo Ruella",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.12.7",
+    "mysql2": "^1.2.0",
+    "w-srvr": "^2.1.0"
+  }
+}
