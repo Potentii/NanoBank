@@ -61,6 +61,7 @@ function start(){
                // *Mapping the static resources:
                .static
                   .add('/static/libs',          '../src/node_modules')
+                  .add('/static/controls',      '../src/controls')
                   .add('/static/identity',      '../src/identity')
                   .add('/static/elements',      '../src/elements')
                   .add('/static/components',    '../src/components')

@@ -1,0 +1,11 @@
+{
+  "name": "nano-bank-ui",
+  "version": "1.0.0",
+  "author": "Guilherme Reginaldo Ruella",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.2.4",
+    "vue-router": "^2.3.0",
+    "web-event-emitter": "^1.1.0"
+  }
+}
