@@ -1,0 +1,23 @@
+.people-balance-item{
+   display: flex;
+   flex-direction: row;
+   padding: 1em 1em;
+   background-color: #FAFAFA;
+   cursor: pointer;
+}
+
+.people-balance-item > .-name{
+   flex-grow: 1;
+}
+
+.people-balance-item > .-balance{
+   font-weight: 700;
+   font-size: 1.1em;
+}
+
+.people-balance-item > .-balance[data-positive-ammount="true"]{
+   color: #00E676;
+}
+.people-balance-item > .-balance[data-positive-ammount="false"]{
+   color: #FF1744;
+}

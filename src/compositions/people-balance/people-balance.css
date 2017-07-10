@@ -1,0 +1,9 @@
+.people-balance{
+   padding: 1em 1em;
+}
+
+.people-balance > li{
+   margin-bottom: 1.2em;
+   border-radius: 2px;
+   box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.08);
+}

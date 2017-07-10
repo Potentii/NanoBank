@@ -1,0 +1,12 @@
+.system-balance{
+   padding: 0.5em;
+   font-weight: 700;
+   font-size: 1.4em;
+}
+
+.system-balance[data-positive-ammount="true"]{
+   color: #00E676;
+}
+.system-balance[data-positive-ammount="false"]{
+   color: #FF1744;
+}
